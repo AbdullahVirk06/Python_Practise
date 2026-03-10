@@ -8,4 +8,14 @@ age = 20
 print(age, type(age))
 
 score = 80.5
+
 print(isinstance(score, float))
+
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main Street'
+address += ', Apartment 4B'
+employee_age = 28
+employee_info = full_name + ' is ' + str(employee_age) + ' years old'
+print(employee_info)
